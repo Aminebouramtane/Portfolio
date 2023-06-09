@@ -11,27 +11,27 @@
 
         <!-- CSS FILES -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        
+
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        
+
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="{{URL::asset('assets/css/bootstrap.min.css')}}" rel="stylesheet">
 
-        <link href="css/bootstrap-icons.css" rel="stylesheet">
+        <link href="{{URL::asset('assets/css/bootstrap-icons.css')}}" rel="stylesheet">
 
-        <link href="css/magnific-popup.css" rel="stylesheet">
+        <link href="{{URL::asset('assets/css/magnific-popup.css')}}" rel="stylesheet">
 
-        <link href="css/templatemo-first-portfolio-style.css" rel="stylesheet">
-        
+        <link href="{{URL::asset('assets/css/templatemo-first-portfolio-style.css')}}" rel="stylesheet">
+
 
     </head>
-    
+
     <body>
 
         <section class="preloader">
             <div class="spinner">
-                <span class="spinner-rotate"></span>    
+                <span class="spinner-rotate"></span>
             </div>
         </section>
 
@@ -94,7 +94,7 @@
                         <div class="col-lg-7 col-12">
                             <div class="hero-text">
                                 <div class="hero-title-wrap d-flex align-items-center mb-4">
-                                    <img src="images/happy-bearded-young-man.jpg" class="avatar-image avatar-image-large img-fluid" alt="">
+                                    <img src="{{URL::asset('assets/images/happy-bearded-young-man.jpg')}}" class="avatar-image avatar-image-large img-fluid" alt="">
 
                                     <h1 class="hero-title ms-3 mb-0">Hello friend!</h1>
                                 </div>
@@ -106,7 +106,7 @@
 
                         <div class="col-lg-5 col-12 position-relative">
                             <div class="hero-image-wrap"></div>
-                            <img src="images/portrait-happy-excited-man-holding-laptop-computer.png" class="hero-image img-fluid" alt="">
+                            <img src="{{URL::asset('assets/images/portrait-happy-excited-man-holding-laptop-computer.png')}}" class="hero-image img-fluid" alt="">
                         </div>
 
                     </div>
@@ -121,7 +121,7 @@
                     <div class="row">
 
                         <div class="col-lg-6 col-12">
-                            <img src="images/couple-working-from-home-together-sofa.jpg" class="about-image img-fluid" alt="">
+                            <img src="{{URL::asset('assets/images/couple-working-from-home-together-sofa.jpg')}}" class="about-image img-fluid" alt="">
                         </div>
 
                         <div class="col-lg-6 col-12 mt-5 mt-lg-0">
@@ -130,7 +130,7 @@
                                 <div class="section-title-wrap d-flex justify-content-end align-items-center mb-4">
                                     <h2 class="text-white me-4 mb-0">My Story</h2>
 
-                                    <img src="images/happy-bearded-young-man.jpg" class="avatar-image img-fluid" alt="">
+                                    <img src="{{URL::asset('assets/images/happy-bearded-young-man.jpg')}}" class="avatar-image img-fluid" alt="">
                                 </div>
 
                                 <h3 class="pt-2 mb-3">a little bit about Joshua</h3>
@@ -157,22 +157,22 @@
 
                                 <div class="profile-body">
                                     <p>
-                                        <span class="profile-small-title">Name</span> 
+                                        <span class="profile-small-title">Name</span>
                                         <span>Joshua Morgan</span>
                                     </p>
 
                                     <p>
-                                        <span class="profile-small-title">Birthday</span> 
+                                        <span class="profile-small-title">Birthday</span>
                                         <span>Aug 12, 1986</span>
                                     </p>
 
                                     <p>
-                                        <span class="profile-small-title">Phone</span> 
+                                        <span class="profile-small-title">Phone</span>
                                          <span><a href="tel: 305-240-9671">120-240-9600</a></span>
                                     </p>
 
                                     <p>
-                                        <span class="profile-small-title">Email</span> 
+                                        <span class="profile-small-title">Email</span>
                                         <span><a href="mailto:hello@josh.design">hello@josh.design</a></span>
                                     </p>
                                 </div>
@@ -223,23 +223,23 @@
                         </div>
 
                         <div class="col-lg-2 col-4 ms-auto clients-item-height">
-                            <img src="images/clients/cachet.svg" class="clients-image img-fluid" alt="">
+                            <img src="{{URL::asset('assets/images/clients/cachet.svg')}}" class="clients-image img-fluid" alt="">
                         </div>
 
                         <div class="col-lg-2 col-4 clients-item-height">
-                            <img src="images/clients/guitar-center.svg" class="clients-image img-fluid" alt="">
+                            <img src="{{URL::asset('assets/images/clients/guitar-center.svg')}}" class="clients-image img-fluid" alt="">
                         </div>
 
                         <div class="col-lg-2 col-4 clients-item-height">
-                            <img src="images/clients/tokico.svg" class="clients-image img-fluid" alt="">
+                            <img src="{{URL::asset('assets/images/clients/tokico.svg')}}" class="clients-image img-fluid" alt="">
                         </div>
 
                         <div class="col-lg-2 col-4 clients-item-height">
-                            <img src="images/clients/shopify.svg" class="clients-image img-fluid" alt="">
+                            <img src="{{URL::asset('assets/images/clients/shopify.svg')}}" class="clients-image img-fluid" alt="">
                         </div>
 
                         <div class="col-lg-2 col-4 me-auto clients-item-height">
-                            <img src="images/clients/profil-rejser.svg" class="clients-image img-fluid" alt="">
+                            <img src="{{URL::asset('assets/images/clients/profil-rejser.svg')}}" class="clients-image img-fluid" alt="">
                         </div>
 
                     </div>
@@ -253,7 +253,7 @@
 
                         <div class="col-lg-10 col-12 mx-auto">
                             <div class="section-title-wrap d-flex justify-content-center align-items-center mb-5">
-                                <img src="images/handshake-man-woman-after-signing-business-contract-closeup.jpg" class="avatar-image img-fluid" alt="">
+                                <img src="{{URL::asset('assets/images/handshake-man-woman-after-signing-business-contract-closeup.jpg')}}" class="avatar-image img-fluid" alt="">
 
                                 <h2 class="text-white ms-4 mb-0">Services</h2>
                             </div>
@@ -355,7 +355,7 @@
 
                         <div class="col-lg-8 col-md-8 col-12 ms-auto">
                             <div class="section-title-wrap d-flex justify-content-center align-items-center mb-4">
-                                <img src="images/white-desk-work-study-aesthetics.jpg" class="avatar-image img-fluid" alt="">
+                                <img src="{{URL::asset('assets/images/white-desk-work-study-aesthetics.jpg')}}" class="avatar-image img-fluid" alt="">
 
                                 <h2 class="text-white ms-4 mb-0">Projects</h2>
                             </div>
@@ -372,7 +372,7 @@
                                 </div>
 
                                 <a href="images/projects/nikhil-KO4io-eCAXA-unsplash.jpg" class="popup-image">
-                                    <img src="images/projects/nikhil-KO4io-eCAXA-unsplash.jpg" class="projects-image img-fluid" alt="">
+                                    <img src="{{URL::asset('assets/images/projects/nikhil-KO4io-eCAXA-unsplash.jpg')}}" class="projects-image img-fluid" alt="">
                                 </a>
                             </div>
                         </div>
@@ -386,7 +386,7 @@
                                 </div>
 
                                 <a href="images/projects/the-5th-IQYR7N67dhM-unsplash.jpg" class="popup-image">
-                                    <img src="images/projects/the-5th-IQYR7N67dhM-unsplash.jpg" class="projects-image img-fluid" alt="">
+                                    <img src="{{URL::asset('assets/images/projects/the-5th-IQYR7N67dhM-unsplash.jpg')}}" class="projects-image img-fluid" alt="">
                                 </a>
                             </div>
                         </div>
@@ -400,7 +400,7 @@
                                 </div>
 
                                 <a href="images/projects/true-agency-9Bjog5FZ-oc-unsplash.jpg" class="popup-image">
-                                    <img src="images/projects/true-agency-9Bjog5FZ-oc-unsplash.jpg" class="projects-image img-fluid" alt="">
+                                    <img src="{{URL::asset('assets/images/projects/true-agency-9Bjog5FZ-oc-unsplash.jpg')}}" class="projects-image img-fluid" alt="">
                                 </a>
                             </div>
                         </div>
@@ -415,7 +415,7 @@
 
                             <div class="col-lg-6 col-md-8 col-12">
                                 <div class="section-title-wrap d-flex justify-content-center align-items-center mb-5">
-                                    <img src="images/aerial-view-man-using-computer-laptop-wooden-table.jpg" class="avatar-image img-fluid" alt="">
+                                    <img src="{{URL::asset('assets/images/aerial-view-man-using-computer-laptop-wooden-table.jpg')}}" class="avatar-image img-fluid" alt="">
 
                                     <h2 class="text-white ms-4 mb-0">Say Hi</h2>
                                 </div>
@@ -487,15 +487,15 @@
                                         <div class="col-lg-6 col-md-6 col-12">
                                             <div class="form-floating">
                                                 <input type="text" name="name" id="name" class="form-control" placeholder="Name" required="">
-                                                
+
                                                 <label for="floatingInput">Name</label>
                                             </div>
                                         </div>
 
-                                        <div class="col-lg-6 col-md-6 col-12"> 
+                                        <div class="col-lg-6 col-md-6 col-12">
                                             <div class="form-floating">
                                                 <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required="">
-                                                
+
                                                 <label for="floatingInput">Email address</label>
                                             </div>
                                         </div>
@@ -547,7 +547,7 @@
                                         <div class="col-lg-12 col-12">
                                             <div class="form-floating">
                                                 <textarea class="form-control" id="message" name="message" placeholder="Tell me about the project"></textarea>
-                                                
+
                                                 <label for="floatingTextarea">Tell me about the project</label>
                                             </div>
                                         </div>
@@ -575,7 +575,7 @@
                         <div class="copyright-text-wrap">
                             <p class="mb-0">
                                 <span class="copyright-text">Copyright © 2036 <a href="#">First Portfolio</a> Company. All rights reserved.</span>
-                                Design: 
+                                Design:
                                 <a rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a>
                             </p>
                         </div>
@@ -586,13 +586,13 @@
         </footer>
 
         <!-- JAVASCRIPT FILES -->
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.sticky.js"></script>
-        <script src="js/click-scroll.js"></script>
-        <script src="js/jquery.magnific-popup.min.js"></script>
-        <script src="js/magnific-popup-options.js"></script>
-        <script src="js/custom.js"></script>
+        <script src="{{URL::asset('assets/js/jquery.min.js')}}"></script>
+        <script src="{{URL::asset('assets/js/bootstrap.min.js')}}"></script>
+        <script src="{{URL::asset('assets/js/jquery.sticky.js')}}"></script>
+        <script src="{{URL::asset('assets/js/click-scroll.js')}}"></script>
+        <script src="{{URL::asset('assets/js/jquery.magnific-popup.min.js')}}"></script>
+        <script src="{{URL::asset('assets/js/magnific-popup-options.js')}}"></script>
+        <script src="{{URL::asset('assets/js/custom.js')}}"></script>
 
     </body>
 </html>
