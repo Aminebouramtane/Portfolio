@@ -95,10 +95,10 @@
                                 <div class="hero-title-wrap d-flex align-items-center mb-4">
                                     <img src="{{URL::asset('assets/images/happy-bearded-young-man.jpg')}}" class="avatar-image avatar-image-large img-fluid" alt="">
 
-                                    <h1 class="hero-title ms-3 mb-0">Hello friend!</h1>
+                                    <h1 class="hero-title ms-3 mb-0">Hello friend Im Amine Bouramtane!</h1>
                                 </div>
 
-                                <h2 class="mb-4">I’m available for freelance work.</h2>
+                                <h2 class="mb-4">Full Stack Web Developer.</h2>
                                 <p class="mb-4"><a class="custom-btn btn custom-link" href="#section_2">Let's begin</a></p>
                             </div>
                         </div>
@@ -127,7 +127,7 @@
                             <div class="about-thumb">
 
                                 <div class="section-title-wrap d-flex justify-content-end align-items-center mb-4">
-                                    <h2 class="text-white me-4 mb-0">My Story</h2>
+                                    <h2 class="text-white me-4 mb-0">About me</h2>
 
                                     <img src="{{URL::asset('assets/images/happy-bearded-young-man.jpg')}}" class="avatar-image img-fluid" alt="">
                                 </div>
