@@ -8,7 +8,7 @@ https://templatemo.com/tm-578-first-portfolio
 
 
 /*---------------------------------------
-  CUSTOM PROPERTIES ( VARIABLES )             
+  CUSTOM PROPERTIES ( VARIABLES )
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
@@ -43,12 +43,12 @@ https://templatemo.com/tm-578-first-portfolio
 
 body {
     background: var(--white-color);
-    font-family: var(--body-font-family); 
+    font-family: var(--body-font-family);
 }
 
 
 /*---------------------------------------
-  TYPOGRAPHY               
+  TYPOGRAPHY
 -----------------------------------------*/
 
 h2,
@@ -109,7 +109,7 @@ ul li {
   font-weight: var(--font-weight-normal);
 }
 
-a, 
+a,
 button {
   touch-action: manipulation;
   transition: all 0.3s;
@@ -152,7 +152,7 @@ strong {
 
 
 /*---------------------------------------
-  AVATAR IMAGE               
+  AVATAR IMAGE
 -----------------------------------------*/
 .avatar-image {
   border-radius: var(--border-radius-large);
@@ -168,7 +168,7 @@ strong {
 
 
 /*---------------------------------------
-  PRE LOADER               
+  PRE LOADER
 -----------------------------------------*/
 .preloader {
   position: fixed;
@@ -217,7 +217,7 @@ strong {
 
 
 /*---------------------------------------
-  CUSTOM ICON               
+  CUSTOM ICON
 -----------------------------------------*/
 .navbar-icon {
   background: var(--white-color);
@@ -240,7 +240,7 @@ strong {
 
 
 /*---------------------------------------
-  CUSTOM BUTTON               
+  CUSTOM BUTTON
 -----------------------------------------*/
 .custom-btn,
 .navbar .custom-btn {
@@ -299,7 +299,7 @@ strong {
 
 
 /*---------------------------------------
-  NAVIGATION              
+  NAVIGATION
 -----------------------------------------*/
 .sticky-wrapper {
   position: relative;
@@ -387,12 +387,12 @@ strong {
   height: 2px;
 }
 
-.navbar-nav .nav-link.active::after, 
+.navbar-nav .nav-link.active::after,
 .navbar-nav .nav-link:hover::after {
   background: var(--secondary-color);
 }
 
-.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
   color: var(--secondary-color);
 }
@@ -465,7 +465,7 @@ strong {
 
 
 /*---------------------------------------
-  HERO              
+  HERO
 -----------------------------------------*/
 .hero {
   background: var(--secondary-color);
@@ -539,7 +539,7 @@ strong {
 
 
 /*---------------------------------------
-  ABOUT              
+  ABOUT
 -----------------------------------------*/
 .profile-thumb {
   border: 1px solid var(--border-color);
@@ -582,7 +582,7 @@ strong {
 
 
 /*---------------------------------------
-  FEATURED              
+  FEATURED
 -----------------------------------------*/
 .featured-numbers {
   font-size: var(--h1-font-size);
@@ -604,7 +604,7 @@ strong {
 
 
 /*---------------------------------------
-  CLIENTS              
+  CLIENTS
 -----------------------------------------*/
 
 .clients-item-height {
@@ -624,7 +624,7 @@ strong {
 
 
 /*---------------------------------------
-  SERVICES              
+  SERVICES
 -----------------------------------------*/
 .services,
 .featured {
@@ -715,7 +715,7 @@ strong {
 
 
 /*---------------------------------------
-  PROJECTS              
+  PROJECTS
 -----------------------------------------*/
 .projects-thumb {
   background: var(--section-bg-color);
@@ -766,7 +766,7 @@ strong {
 
 
 /*---------------------------------------
-  CONTACT              
+  CONTACT
 -----------------------------------------*/
 .contact {
   background: var(--section-bg-color);
@@ -791,7 +791,7 @@ strong {
 
 
 /*---------------------------------------
-  CUSTOM FORM               
+  CUSTOM FORM
 -----------------------------------------*/
 .custom-form .form-control {
   background: var(--white-color);
@@ -882,7 +882,7 @@ strong {
 
 
 /*---------------------------------------
-  SITE FOOTER              
+  SITE FOOTER
 -----------------------------------------*/
 .site-footer {
   border-top: 1px solid var(--border-color);
@@ -945,7 +945,7 @@ strong {
 
 
 /*---------------------------------------
-  SOCIAL ICON               
+  SOCIAL ICON
 -----------------------------------------*/
 .social-icon {
   margin: 0;
@@ -980,7 +980,7 @@ strong {
 
 
 /*---------------------------------------
-  RESPONSIVE STYLES               
+  RESPONSIVE STYLES
 -----------------------------------------*/
 @media screen and (min-width: 1600px) {
   .hero {
@@ -997,7 +997,7 @@ strong {
   .hero-image {
     min-width: 650px;
   }
-  
+
   .hero-title,
 	.hero h2 {
 	  font-size: var(--h2-font-size);
