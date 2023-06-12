@@ -308,7 +308,7 @@
                                             <h3 class="mb-0">Ecommerce</h3>
 
                                             <div class="services-price-wrap ms-auto">
-                                                <p class="services-price-text mb-0">$3,600</p>
+                                                <p class="services-price-text mb-0">$600</p>
                                                 <div class="services-price-overlay"></div>
                                             </div>
                                         </div>
@@ -329,7 +329,7 @@
                                             <h3 class="mb-0">SEO</h3>
 
                                             <div class="services-price-wrap ms-auto">
-                                                <p class="services-price-text mb-0">$1,450</p>
+                                                <p class="services-price-text mb-0">$450</p>
                                                 <div class="services-price-overlay"></div>
                                             </div>
                                         </div>
@@ -575,9 +575,7 @@
                     <div class="col-lg-12 col-12">
                         <div class="copyright-text-wrap">
                             <p class="mb-0">
-                                <span class="copyright-text">Copyright © 2036 <a href="#">First Portfolio</a> Company. All rights reserved.</span>
-                                Design:
-                                <a rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a>
+                                <span class="copyright-text">Copyright © 2023 <a href="#">Amine Bouramtane</a> Company. All rights reserved.</span>
                             </p>
                         </div>
                     </div>
