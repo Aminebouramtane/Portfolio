@@ -77,7 +77,7 @@
                     <div class="d-lg-flex align-items-center d-none ms-auto">
                         <i class="navbar-icon bi-telephone-plus me-3"></i>
                         <a class="custom-btn btn" href="#section_5">
-                            120-240-9600
+                            +212-602716306
                         </a>
                     </div>
                 </div>
@@ -95,7 +95,7 @@
                                 <div class="hero-title-wrap d-flex align-items-center mb-4">
                                     <img src="{{URL::asset('assets/images/1675158916459.jfif')}}" class="avatar-image avatar-image-large img-fluid" alt="">
 
-                                    <h1 class="hero-title ms-3 mb-0">Hello friend's !</h1>
+                                    <h1 class="hero-title ms-3 mb-0">Amine Bouramtane !</h1>
                                 </div>
 
                                 <h2 class="mb-4">Full Stack Web Developer.</h2>
@@ -169,12 +169,12 @@
 
                                     <p>
                                         <span class="profile-small-title">Phone</span>
-                                         <span><a href="tel: 305-240-9671"></a></span>
+                                         <span><a href="tel: 305-240-9671">+212-602716306</a></span>
                                     </p>
 
                                     <p>
                                         <span class="profile-small-title">Email</span>
-                                        <span><a href="mailto:hello@josh.design">hello@josh.design</a></span>
+                                        <span><a href="mailto:hello@josh.design">bouramtaneamine1@gmail.com</a></span>
                                     </p>
                                 </div>
                             </div>
@@ -184,27 +184,27 @@
                             <div class="about-thumb">
                                 <div class="row">
                                     <div class="col-lg-6 col-6 featured-border-bottom py-2">
-                                        <strong class="featured-numbers">20+</strong>
+                                        <strong class="featured-numbers">2+</strong>
 
                                         <p class="featured-text">Years of Experiences</p>
                                     </div>
 
                                     <div class="col-lg-6 col-6 featured-border-start featured-border-bottom ps-5 py-2">
-                                        <strong class="featured-numbers">245</strong>
+                                        <strong class="featured-numbers">6+</strong>
 
-                                        <p class="featured-text">Happy Customers</p>
+                                        <p class="featured-text">Programming languages</p>
                                     </div>
 
                                     <div class="col-lg-6 col-6 pt-4">
-                                        <strong class="featured-numbers">640</strong>
+                                        <strong class="featured-numbers">20</strong>
 
                                         <p class="featured-text">Project Finished</p>
                                     </div>
 
                                     <div class="col-lg-6 col-6 featured-border-start ps-5 pt-4">
-                                        <strong class="featured-numbers">72+</strong>
+                                        <strong class="featured-numbers">200+</strong>
 
-                                        <p class="featured-text">Digital Awards</p>
+                                        <p class="featured-text">contributions in GitHub</p>
                                     </div>
                                 </div>
                             </div>
@@ -220,27 +220,27 @@
                     <div class="row align-items-center">
 
                         <div class="col-lg-12 col-12">
-                            <h3 class="text-center mb-5">Companies I've had worked</h3>
+                            <h3 class="text-center mb-5">Languages I've had used</h3>
                         </div>
 
-                        <div class="col-lg-2 col-4 ms-auto clients-item-height">
-                            <img src="{{URL::asset('assets/images/clients/cachet.svg')}}" class="clients-image img-fluid" alt="">
-                        </div>
-
-                        <div class="col-lg-2 col-4 clients-item-height">
-                            <img src="{{URL::asset('assets/images/clients/guitar-center.svg')}}" class="clients-image img-fluid" alt="">
+                        <div class="col-lg-2 col-4  ms-auto clients-item-height">
+                            <img src="{{URL::asset('assets/images/clients/210-2104705_html-logo-png-transparent-background.png')}}" class="clients-image img-fluid" alt="">
                         </div>
 
                         <div class="col-lg-2 col-4 clients-item-height">
-                            <img src="{{URL::asset('assets/images/clients/tokico.svg')}}" class="clients-image img-fluid" alt="">
+                            <img src="{{URL::asset('assets/images/clients/R (1).png')}}" style="max-height: 105px" class="clients-image img-fluid" alt="">
                         </div>
 
                         <div class="col-lg-2 col-4 clients-item-height">
-                            <img src="{{URL::asset('assets/images/clients/shopify.svg')}}" class="clients-image img-fluid" alt="">
+                            <img src="{{URL::asset('assets/images/clients/JavaScript_Logo.png')}}" class="clients-image img-fluid" alt="">
+                        </div>
+
+                        <div class="col-lg-2 col-4 clients-item-height">
+                            <img src="{{URL::asset('assets/images/clients/OIP.jfif')}}" class="clients-image img-fluid" alt="">
                         </div>
 
                         <div class="col-lg-2 col-4 me-auto clients-item-height">
-                            <img src="{{URL::asset('assets/images/clients/profil-rejser.svg')}}" class="clients-image img-fluid" alt="">
+                            <img src="{{URL::asset('assets/images/clients/logo-laravel-icon-1024.png')}}" class="clients-image img-fluid" alt="">
                         </div>
 
                     </div>
@@ -266,7 +266,7 @@
                                             <h3 class="mb-0">Websites</h3>
 
                                             <div class="services-price-wrap ms-auto">
-                                                <p class="services-price-text mb-0">$2,400</p>
+                                                <p class="services-price-text mb-0">$600</p>
                                                 <div class="services-price-overlay"></div>
                                             </div>
                                         </div>
@@ -324,8 +324,8 @@
                                 </div>
 
                                 <div class="col-lg-6 col-12">
-                                    <div class="services-thumb services-thumb-up">
-                                        <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
+                                    <div class="services-thumb ">
+                                        <div class="d-flex flex-wrap align-items-center border-bottom mb-4 mt-7 pb-3">
                                             <h3 class="mb-0">SEO</h3>
 
                                             <div class="services-price-wrap ms-auto">
