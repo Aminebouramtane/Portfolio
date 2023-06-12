@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="author" content="TemplateMo">
 
-        <title>First Portfolio Bootstrap 5 Theme</title>
+        <title>Amine-BOURAMTANE|Portfolio</title>
 
         <!-- CSS FILES -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -72,6 +72,21 @@
                         <li class="nav-item">
                             <a class="nav-link click-scroll" href="#section_5">Contact</a>
                         </li>
+                        @auth
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Hey {{Auth()->user()->name}}</a>
+                            </li>
+                        @endauth
+                        @guest
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="{{route('login')}}">Login</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="{{route('login')}}">Register</a>
+                            </li>
+                        @endguest
+
                     </ul>
 
                     <div class="d-lg-flex align-items-center d-none ms-auto">
@@ -99,7 +114,7 @@
                                 </div>
 
                                 <h2 class="mb-4">Full Stack Web Developer.</h2>
-                                <p class="mb-4"><a class="custom-btn btn custom-link" href="#section_2">Let's begin</a></p>
+                                <p class="mb-4"><a class="custom-btn btn custom-link" href="#section_5">Send me message</a></p>
                             </div>
                         </div>
 
@@ -204,7 +219,7 @@
                                     <div class="col-lg-6 col-6 featured-border-start ps-5 pt-4">
                                         <strong class="featured-numbers">200+</strong>
 
-                                        <p class="featured-text">contributions in GitHub</p>
+                                        <p class="featured-text">Contributions in GitHub</p>
                                     </div>
                                 </div>
                             </div>
