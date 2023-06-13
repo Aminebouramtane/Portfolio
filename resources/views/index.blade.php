@@ -109,7 +109,6 @@
                             <div class="hero-text">
                                 <div class="hero-title-wrap d-flex align-items-center mb-4">
                                     <img src="{{URL::asset('assets/images/1675158916459.jfif')}}" class="avatar-image avatar-image-large img-fluid" alt="">
-
                                     <h1 class="hero-title ms-3 mb-0">Amine Bouramtane !</h1>
                                 </div>
 
@@ -119,8 +118,10 @@
                         </div>
 
                         <div class="col-lg-5 col-12 position-relative">
-                            <div class="hero-image-wrap"></div>
-                            <img src="{{URL::asset('assets/images/portrait-happy-excited-man-holding-laptop-computer.png')}}" class="hero-image img-fluid" alt="">
+                            <div class="hero-image-wrap">
+                                {{-- <img src="{{URL::asset('assets/images/1675158916459.jfif')}}" class="avatar-image avatar-image-large img-fluid" alt=""> --}}
+                            </div>
+                            {{-- <img src="{{URL::asset('assets/images/portrait-happy-excited-man-holding-laptop-computer.png')}}" class="hero-image img-fluid" alt=""> --}}
                         </div>
 
                     </div>

@@ -505,7 +505,8 @@ strong {
 }
 
 .hero-image-wrap {
-  background: var(--white-color);
+  /* background: var(--white-color); */
+  background-image: url("../images/1675158916459.jfif");
   border-radius: 100%;
   width: 350px;
   height: 350px;
