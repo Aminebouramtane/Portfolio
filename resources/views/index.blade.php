@@ -54,23 +54,23 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-lg-5">
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_1">Home</a>
+                            <a class="nav-link" href="#section_1">Home</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_2">About</a>
+                            <a class="nav-link" href="#section_2">About</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_3">Services</a>
+                            <a class="nav-link" href="#section_3">Services</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_4">Projects</a>
+                            <a class="nav-link" href="#section_4">Projects</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_5">Contact</a>
+                            <a class="nav-link" href="#section_5">Contact</a>
                         </li>
                         @auth
                             <li class="nav-item">
@@ -79,11 +79,11 @@
                         @endauth
                         @guest
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="{{route('login')}}">Login</a>
+                                <a class="nav-link" href="{{route('login')}}">Login</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="{{route('login')}}">Register</a>
+                                <a class="nav-link" href="{{route('register')}}">Register</a>
                             </li>
                         @endguest
 
@@ -113,7 +113,7 @@
                                 </div>
 
                                 <h2 class="mb-4">Full Stack Web Developer.</h2>
-                                <p class="mb-4"><a class="custom-btn btn custom-link" href="#section_5">Send me message</a></p>
+                                <p class="mb-4"><a class="custom-btn btn custom" href="#section_5">Send me message</a></p>
                             </div>
                         </div>
 
@@ -138,7 +138,7 @@
                     <div class="row">
 
                         <div class="col-lg-6 col-12">
-                            <img src="{{URL::asset('assets/images/couple-working-from-home-together-sofa.jpg')}}" class="about-image img-fluid" alt="">
+                            <img src="{{URL::asset('assets/images/clients/19362653.jpg')}}" class="about-image img-fluid" alt="">
                         </div>
 
                         <div class="col-lg-6 col-12 mt-5 mt-lg-0">
@@ -457,13 +457,13 @@
                                     <strong class="site-footer-title d-block mt-4 mb-3">Stay connected</strong>
 
                                     <ul class="social-icon">
-                                        <li class="social-icon-item"><a href="https://twitter.com/minthu" class="social-icon-link bi-twitter"></a></li>
+                                        <li class="social-icon-item"><a href="https://www.linkedin.com/in/amine-bouramtane-72975a259" class="social-icon-link bi-linkedin"></a></li>
 
-                                        <li class="social-icon-item"><a href="#" class="social-icon-link bi-instagram"></a></li>
+                                        <li class="social-icon-item"><a href="https://github.com/Aminebouramtane" class="social-icon-link bi-github"></a></li>
+
+                                        <li class="social-icon-item"><a href="https://www.instagram.com/bouramtaneamine/" class="social-icon-link bi-instagram"></a></li>
 
                                         <li class="social-icon-item"><a href="#" class="social-icon-link bi-pinterest"></a></li>
-
-                                        <li class="social-icon-item"><a href="https://www.youtube.com/templatemo" class="social-icon-link bi-youtube"></a></li>
                                     </ul>
 
                                     <strong class="site-footer-title d-block mt-4 mb-3">Start a project</strong>
@@ -477,7 +477,7 @@
                                     <strong class="site-footer-title d-block mb-3">About</strong>
 
                                     <p class="mb-2">
-                                        Joshua is a professional web developer. Feel free to get in touch with me.
+                                        I'm professional Full Stack Web developer. Feel free to get in touch with me.
                               </p>
 
                                     <strong class="site-footer-title d-block mt-4 mb-3">Email</strong>
@@ -568,10 +568,17 @@
                                                 <label for="floatingTextarea">Tell me about the project</label>
                                             </div>
                                         </div>
+                                        @auth
+                                            <div class="col-lg-3 col-12 ms-auto">
+                                                <button type="submit" class="form-control">Send</button>
+                                            </div>
+                                        @endauth
+                                        @guest
+                                            <div class="col-lg-3 col-12 ms-auto">
+                                                <button onclick="return alert('You hav to login first !!')" type="submit" class="form-control">Send</button>
+                                            </div>
+                                        @endguest
 
-                                        <div class="col-lg-3 col-12 ms-auto">
-                                            <button type="submit" class="form-control">Send</button>
-                                        </div>
 
                                     </div>
                                 </form>
@@ -608,6 +615,5 @@
         <script src="{{URL::asset('assets/js/jquery.magnific-popup.min.js')}}"></script>
         <script src="{{URL::asset('assets/js/magnific-popup-options.js')}}"></script>
         <script src="{{URL::asset('assets/js/custom.js')}}"></script>
-
     </body>
 </html>
