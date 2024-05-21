@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap');
+
+:root
+{
+    --primary :#171C23;
+    --secondary : #21272F;
+    --tertiary : #88949B;
+    --alcohol : #F0FCF9;
+    --white : #FFFFFF;
+    --ruby : #29D882;
+    --secondary_ruby : #00BD95;
+}
+
+/* h1 
+{
+     font-family:"Inter", "Epilogue", sans-serif; 
+} */
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav-bare
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--alcohol);
+}
+
+.nav-bare .logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bare .logo a
+{
+    text-decoration: none;
+}
+
+.nav-bare .logo a span
+{
+    font-family: "Epilogue",  sans-serif;
+    color: var(--primary);
+    font-weight: bold;
+    font-size: larger;
+}
+
+.nav-bare .menu
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bare .menu a
+{
+    padding: 12px;
+    text-decoration: none;
+    color: var(--tertiary);
+    font-family: "Inter",  sans-serif;
+}
+
+.nav-bare .menu .active
+{
+    padding: 12px;
+    font-size: medium;
+    color: var(--primary);
+    border-bottom: 2px solid var(--ruby);
+}
+
+.nav-bare .other
+{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    background-color: var(--ruby);
+    width: 500px;
+}
+
+.nav-bare .other a
+{
+    text-decoration: none;
+    padding: 5px;
+}
+
+.nav-bare .other a .fa-brands
+{
+    font-size: 16px;
+    color: var(--primary);
+    color: var(--alcohol);
+    padding-right: 8px;
+}
+
+.nav-bare .other a button
+{
+    padding: 8px 25px;
+    margin-right: 15px;
+    background-color: transparent;
+    border: 0.5px solid var(--white);
+    border-radius: 4px;
+    color: var(--white);
+}
+
+img
+{
+    width: 40px;
+    height: 40px;
+}
