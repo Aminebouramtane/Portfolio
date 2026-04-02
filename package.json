@@ -1,10 +1,12 @@
 {
+  "homepage": "https://Aminebouramtane.github.io/Portfolio",
   "name": "amine-portfolio",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
     "build": "vite build",
     "preview": "vite preview",
     "deploy": "npm run build && gh-pages -d dist"
