@@ -8,9 +8,261 @@
       content="Personal portfolio of Amine Bouramtane, AI Software Engineer specialized in intelligent systems, machine learning, and data applications."
     />
     <title>Amine Bouramtane | Portfolio</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="#home">Amine Bouramtane</a>
+        <nav class="topbar-nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="topbar-cta" href="#contact">Open to work</a>
+      </header>
+
+      <main>
+        <section id="home" class="hero section">
+          <div class="hero-copy">
+            <div class="eyebrow">
+              <span class="eyebrow-dot"></span>
+              Available for opportunities
+            </div>
+            <h1>
+              Hi, I'm <span class="gradient-text">Amine Bouramtane</span>
+            </h1>
+            <p class="hero-title">AI Software Engineer - Data Intelligent Systems</p>
+            <p class="hero-summary">
+              Software Engineer specialized in Artificial Intelligence, Machine Learning, and Data Systems.
+              I build scalable intelligent systems, computer vision solutions, and data-driven applications.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-solid" href="#projects">View Projects</a>
+              <a class="button button-outline" href="#contact">Contact Me</a>
+            </div>
+          </div>
+
+          <aside class="hero-panel">
+            <div class="panel-header">
+              <span>Focus Areas</span>
+              <span class="panel-pulse"></span>
+            </div>
+            <ul class="focus-list">
+              <li>Intelligent Data Systems</li>
+              <li>Machine Learning Workflows</li>
+              <li>Computer Vision Solutions</li>
+            </ul>
+          </aside>
+        </section>
+
+        <section id="about" class="section">
+          <div class="section-heading">
+            <p>About Me</p>
+            <h2>Engineering Intelligence Into Real Products</h2>
+            <span>I bridge data, algorithms, and software architecture to build reliable systems that produce measurable impact.</span>
+          </div>
+          <div class="glass-card about-card">
+            <p>
+              I am a Software Engineer focused on building AI-powered systems that are both technically robust and practical for real-world use.
+              From model experimentation to deployment-ready architecture, I enjoy turning complex data challenges into clean, scalable products.
+              My work spans machine learning, computer vision, and modern web technologies, with a strong emphasis on performance,
+              maintainability, and user impact.
+            </p>
+          </div>
+        </section>
+
+        <section id="skills" class="section">
+          <div class="section-heading">
+            <p>Capabilities</p>
+            <h2>Technical Skills</h2>
+            <span>A balanced toolkit across software engineering, AI modeling, and production-grade data systems.</span>
+          </div>
+          <div class="grid skills-grid">
+            <article class="glass-card skill-card">
+              <div class="card-top">
+                <div class="card-label">
+                  <span class="icon-badge">C</span>
+                  <h3>Programming</h3>
+                </div>
+                <span class="metric">90%</span>
+              </div>
+              <div class="progress"><span style="width: 90%"></span></div>
+              <div class="chip-list">
+                <span>C</span><span>C++</span><span>Python</span><span>PHP</span><span>JavaScript</span><span>SQL</span>
+              </div>
+            </article>
+
+            <article class="glass-card skill-card">
+              <div class="card-top">
+                <div class="card-label">
+                  <span class="icon-badge">AI</span>
+                  <h3>AI &amp; Data</h3>
+                </div>
+                <span class="metric">92%</span>
+              </div>
+              <div class="progress"><span style="width: 92%"></span></div>
+              <div class="chip-list">
+                <span>Machine Learning</span><span>TensorFlow</span><span>Keras</span><span>Scikit-learn</span><span>Pandas</span><span>YOLO, CNN</span>
+              </div>
+            </article>
+
+            <article class="glass-card skill-card">
+              <div class="card-top">
+                <div class="card-label">
+                  <span class="icon-badge">WEB</span>
+                  <h3>Web</h3>
+                </div>
+                <span class="metric">85%</span>
+              </div>
+              <div class="progress"><span style="width: 85%"></span></div>
+              <div class="chip-list">
+                <span>React</span><span>Laravel</span><span>Livewire</span><span>REST APIs</span>
+              </div>
+            </article>
+
+            <article class="glass-card skill-card">
+              <div class="card-top">
+                <div class="card-label">
+                  <span class="icon-badge">DB</span>
+                  <h3>Databases</h3>
+                </div>
+                <span class="metric">84%</span>
+              </div>
+              <div class="progress"><span style="width: 84%"></span></div>
+              <div class="chip-list">
+                <span>MySQL</span><span>MongoDB</span>
+              </div>
+            </article>
+
+            <article class="glass-card skill-card">
+              <div class="card-top">
+                <div class="card-label">
+                  <span class="icon-badge">OPS</span>
+                  <h3>Tools</h3>
+                </div>
+                <span class="metric">80%</span>
+              </div>
+              <div class="progress"><span style="width: 80%"></span></div>
+              <div class="chip-list">
+                <span>Git</span><span>Docker</span><span>CI/CD</span><span>Linux</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="projects" class="section">
+          <div class="section-heading">
+            <p>Selected Work</p>
+            <h2>Featured Projects</h2>
+            <span>A sample of AI and data-focused products designed for measurable business and operational outcomes.</span>
+          </div>
+          <div class="grid projects-grid">
+            <article class="glass-card project-card">
+              <span class="project-mark">01</span>
+              <h3>AI Tomato Monitoring System</h3>
+              <p>Built an intelligent crop-monitoring workflow combining computer vision and data alerts to detect plant health signals in near real-time.</p>
+              <div class="chip-list tag-list">
+                <span>Computer Vision</span><span>YOLO</span><span>Python</span><span>Analytics</span>
+              </div>
+            </article>
+
+            <article class="glass-card project-card">
+              <span class="project-mark">02</span>
+              <h3>E-Commerce Data Mining Platform</h3>
+              <p>Designed a data mining engine for e-commerce behavior patterns with dashboard-ready insights for customer segmentation and recommendation pipelines.</p>
+              <div class="chip-list tag-list">
+                <span>Data Mining</span><span>React</span><span>SQL</span><span>REST API</span>
+              </div>
+            </article>
+
+            <article class="glass-card project-card">
+              <span class="project-mark">03</span>
+              <h3>Customer Churn Prediction Dashboard</h3>
+              <p>Implemented machine learning models and explainable metrics to predict churn probability and support proactive retention strategies.</p>
+              <div class="chip-list tag-list">
+                <span>Machine Learning</span><span>Scikit-learn</span><span>Dashboard</span><span>KPI</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="experience" class="section">
+          <div class="section-heading">
+            <p>Journey</p>
+            <h2>Experience</h2>
+            <span>A timeline of technical focus areas and the evolution of my engineering impact.</span>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item glass-card">
+              <span class="timeline-dot"></span>
+              <p class="timeline-period">2023 - Present</p>
+              <h3>AI Software Engineer</h3>
+              <p class="timeline-company">Independent Projects</p>
+              <p class="timeline-copy">Delivered AI-driven applications focused on intelligent automation, predictive analytics, and robust data processing pipelines.</p>
+            </article>
+
+            <article class="timeline-item glass-card">
+              <span class="timeline-dot"></span>
+              <p class="timeline-period">2021 - 2023</p>
+              <h3>Data Systems Developer</h3>
+              <p class="timeline-company">Freelance / Collaborations</p>
+              <p class="timeline-copy">Developed scalable data workflows, backend integrations, and interactive frontends for business and analytics use cases.</p>
+            </article>
+
+            <article class="timeline-item glass-card">
+              <span class="timeline-dot"></span>
+              <p class="timeline-period">2019 - 2021</p>
+              <h3>Software Engineering Foundations</h3>
+              <p class="timeline-company">Academic &amp; Personal Lab</p>
+              <p class="timeline-copy">Built strong foundations in algorithms, system design, and full-stack development through projects and research-oriented experimentation.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+          <div class="section-heading">
+            <p>Contact</p>
+            <h2>Let&apos;s Build Something Valuable</h2>
+            <span>If you have a role, project, or collaboration idea in AI and data systems, I would love to hear about it.</span>
+          </div>
+
+          <div class="contact-grid">
+            <article class="glass-card contact-card">
+              <h3>Contact Details</h3>
+              <p>I am open to software engineering roles, AI-focused collaborations, and technical consulting opportunities.</p>
+              <a class="contact-email" href="mailto:amine.bouramtane@example.com">amine.bouramtane@example.com</a>
+              <div class="social-links">
+                <a href="https://github.com/Aminebouramtane" target="_blank" rel="noreferrer">
+                  <span>GitHub</span>
+                  <small>@Aminebouramtane</small>
+                </a>
+                <a href="https://www.linkedin.com/in/amine-bouramtane-72975a259/" target="_blank" rel="noreferrer">
+                  <span>LinkedIn</span>
+                  <small>/in/amine-bouramtane</small>
+                </a>
+              </div>
+            </article>
+
+            <article class="glass-card contact-card contact-note">
+              <h3>Prefer email?</h3>
+              <p>
+                Send a short note with your project scope, timeline, and what kind of support you need.
+                I usually reply fastest to direct, concise messages.
+              </p>
+              <a class="button button-solid" href="mailto:amine.bouramtane@example.com?subject=Portfolio%20Contact">
+                Start a Conversation
+              </a>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>2026 Amine Bouramtane. Crafted with HTML and CSS.</p>
+      </footer>
+    </div>
   </body>
 </html>
