@@ -1,0 +1,248 @@
+/* Root Theme Tokens */
+:root {
+  --bg-ink: #07080c;
+  --bg-card: #0e1017;
+  --bg-card-hover: #161824;
+  --color-primary: #2f45ff;
+  --color-primary-hover: #485cff;
+  --color-saffron: #ffb21e;
+  --color-saffron-hover: #ffc247;
+  --color-bone: #ecebe3;
+  --color-slate: #9096aa;
+  --border-color: rgba(236, 235, 227, 0.12);
+  --border-color-strong: rgba(236, 235, 227, 0.25);
+  --glass-bg: rgba(7, 8, 12, 0.75);
+  
+  --font-heading: 'Bricolage Grotesque', system-ui, sans-serif;
+  --font-body: 'Instrument Sans', system-ui, sans-serif;
+  --font-arabic: 'IBM Plex Sans Arabic', 'Instrument Sans', system-ui, sans-serif;
+  
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-full: 9999px;
+  
+  --transition-fast: 0.15s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-normal: 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+[data-theme="light"] {
+  --bg-ink: #f4f3ed;
+  --bg-card: #ffffff;
+  --bg-card-hover: #eae8df;
+  --color-primary: #2f45ff;
+  --color-primary-hover: #1b2fd4;
+  --color-saffron: #d98a00;
+  --color-saffron-hover: #b87400;
+  --color-bone: #161821;
+  --color-slate: #5f6577;
+  --border-color: rgba(22, 24, 33, 0.12);
+  --border-color-strong: rgba(22, 24, 33, 0.25);
+  --glass-bg: rgba(244, 243, 237, 0.85);
+}
+
+/* Global Reset & Base Styles */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-body);
+  background-color: var(--bg-ink);
+  color: var(--color-bone);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+html[dir="rtl"] {
+  font-family: var(--font-arabic);
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: var(--bg-ink);
+  color: var(--color-bone);
+  transition: background-color var(--transition-normal), color var(--transition-normal);
+}
+
+/* Focus styles for accessibility */
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible {
+  outline: 2px solid var(--color-saffron);
+  outline-offset: 3px;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  color: var(--color-bone);
+}
+
+html[dir="rtl"] h1, html[dir="rtl"] h2, html[dir="rtl"] h3, html[dir="rtl"] h4 {
+  font-family: var(--font-arabic);
+  letter-spacing: normal;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-ink);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-color-strong);
+  border-radius: var(--radius-full);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-slate);
+}
+
+/* Layout Container */
+.container {
+  width: 100%;
+  max-width: 1240px;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+@media (min-width: 768px) {
+  .container {
+    padding-inline: 2.5rem;
+  }
+}
+
+/* Screen Reader Only Utility (Hides visually while maintaining accessibility) */
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+/* Skip link */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 1rem;
+  background: var(--color-saffron);
+  color: #000;
+  padding: 0.75rem 1.5rem;
+  font-weight: 700;
+  z-index: 9999;
+  border-radius: var(--radius-sm);
+  transition: top var(--transition-fast);
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: var(--radius-full);
+  border: 1px solid transparent;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all var(--transition-fast);
+}
+.btn-primary {
+  background-color: var(--color-primary);
+  color: #ffffff;
+}
+.btn-primary:hover {
+  background-color: var(--color-primary-hover);
+  transform: translateY(-2px);
+}
+.btn-saffron {
+  background-color: var(--color-saffron);
+  color: #07080c;
+  font-weight: 700;
+}
+.btn-saffron:hover {
+  background-color: var(--color-saffron-hover);
+  transform: translateY(-2px);
+}
+.btn-outline {
+  background-color: transparent;
+  border-color: var(--border-color-strong);
+  color: var(--color-bone);
+}
+.btn-outline:hover {
+  border-color: var(--color-bone);
+  background-color: rgba(236, 235, 227, 0.05);
+}
+
+/* Utility classes */
+.text-slate { color: var(--color-slate); }
+.text-saffron { color: var(--color-saffron); }
+.text-cobalt { color: var(--color-primary); }
+
+/* Pulsing Status Indicator */
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.4rem 1rem;
+  border-radius: var(--radius-full);
+  background-color: rgba(47, 69, 255, 0.1);
+  border: 1px solid rgba(47, 69, 255, 0.25);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-bone);
+}
+.pulse-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #22c55e;
+  box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+  animation: pulse-ring 1.8s infinite;
+}
+@keyframes pulse-ring {
+  0% {
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 8px rgba(34, 197, 94, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
+  }
+}
+
+/* Print Stylesheet for executive CV */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt;
+  }
+  header, footer, nav, .theme-toggle, .lang-switcher, .contact-form, .canvas-container, .admin-link, .no-print {
+    display: none !important;
+  }
+  .container {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+  h1, h2, h3 {
+    color: #000000 !important;
+  }
+}
